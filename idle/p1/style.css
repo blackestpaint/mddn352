@@ -4,7 +4,8 @@ There are two sections in this CSS. First sets up the default style, and the sec
 
 
 body {
-    background-size: contain; 
+    background-size: contain;
+    background-repeat: repeat-y; 
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover; 
