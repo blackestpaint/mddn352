@@ -27,7 +27,7 @@ h1{
 
 div{
     display: block;
-    font-size: 30px;
+    font-size: 40px;
     float: left;
     text-align: left;
 }
@@ -47,11 +47,11 @@ body {
     }
 
 div{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 p{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 img{
@@ -71,11 +71,11 @@ body {
     }
     
 div{
-    font-size:25px;
+    font-size:15px;
 }
 
 p{
-    font-size:40px;
+    font-size:25px;
 }
 
 img{
