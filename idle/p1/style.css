@@ -1,0 +1,87 @@
+/*
+There are two sections in this CSS. First sets up the default style, and the second creates an alternative style for when width is less than 480px.
+*/
+
+
+body {
+    background-size: contain; 
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-color: #302f2f;
+    padding: 10%;
+    font-family:sans;
+    color: #ffffff;
+}
+
+.rightside {
+    display: block;
+    float: right;
+    text-align: right;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    display: block;
+    font-size: 30px;
+    float: left;
+    text-align: left;
+}
+
+p{
+    font-size: 60px;
+    display: inline;
+}
+
+@media only screen and (max-width: 1024px) {
+
+body {
+    background-size: 100%; 
+    background-position: center;
+    text-align: center;
+    padding: 10%;
+    }
+
+div{
+    font-size: 40px;
+}
+
+p{
+    font-size: 50px;
+}
+
+img{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+body {
+    background-size: 200%; 
+    background-position: center;
+    text-align: center;
+    padding: 5%;
+    color:#fcfcfc;
+    }
+    
+div{
+    font-size:25px;
+}
+
+p{
+    font-size:40px;
+}
+
+img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*Try multiple width breaks for different devices */
